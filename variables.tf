@@ -42,7 +42,7 @@ variable "instance_type" {
 
   validation {
     condition     = contains(["ml.g4dn.2xlarge", "ml.g5.xlarge", "ml.g5.2xlarge", "ml.g5.4xlarge", "ml.g5.12xlarge", "ml.g5.48xlarge", "ml.g6.xlarge", "ml.g6.2xlarge", "ml.g6.4xlarge", "ml.g6.12xlarge", "ml.g6.48xlarge", "ml.p4d.24xlarge", "ml.p5.48xlarge"], var.instance_type)
-    error_message = "Valid values for instance_type are "ml.g4dn.2xlarge, ml.g5.xlarge, ml.g5.2xlarge, ml.g5.4xlarge, ml.g5.12xlarge, ml.g5.48xlarge, ml.g6.xlarge, ml.g6.2xlarge, ml.g6.4xlarge, ml.g6.12xlarge, ml.g6.48xlarge, ml.p4d.24xlarge, ml.p5.48xlarge"
+    error_message = "Valid values for instance_type are ml.g4dn.2xlarge, ml.g5.xlarge, ml.g5.2xlarge, ml.g5.4xlarge, ml.g5.12xlarge, ml.g5.48xlarge, ml.g6.xlarge, ml.g6.2xlarge, ml.g6.4xlarge, ml.g6.12xlarge, ml.g6.48xlarge, ml.p4d.24xlarge, ml.p5.48xlarge"
   }
 }
 

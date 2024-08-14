@@ -20,6 +20,7 @@ locals {
     "ml.g6.48xlarge"  = 8
     "ml.p4d.24xlarge" = 8
     "ml.p5.48xlarge"  = 8
+    "ml.g4dn.2xlarge" = 1
   }
   num_gpus = local.instance_gpu_count[var.instance_type]
 }
